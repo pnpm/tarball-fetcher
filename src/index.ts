@@ -1,3 +1,4 @@
+import logger from '@pnpm/logger'
 import getCredentialsByURI = require('credentials-by-uri')
 import {IncomingMessage} from 'http'
 import mem = require('mem')
