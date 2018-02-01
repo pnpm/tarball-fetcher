@@ -7,6 +7,7 @@ import tempy = require('tempy')
 import {streamParser} from '@pnpm/logger'
 
 const tarballPath = path.join(__dirname, 'tars', 'babel-helper-hoist-variables-6.24.1.tgz')
+const bigTarballPath = path.join(__dirname, 'tars', 'pnpm-bundled-1.31.4.tgz')
 const tarballSize = 1279
 const tarballIntegrity = 'sha1-HssnaJydJVE+rbyZFKc/VAi+enY='
 const registry = 'http://example.com/'
@@ -54,14 +55,14 @@ test('fail when tarball size does not match content-length', async t => {
 test('retry when tarball size does not match content-length', async t => {
   const scope = nock(registry)
     .get('/foo.tgz')
-    .replyWithFile(200, tarballPath, {
+    .replyWithFile(200, bigTarballPath, {
       'Content-Length': (1024 * 1024).toString(),
     })
 
   nock(registry)
     .get('/foo.tgz')
-    .replyWithFile(200, tarballPath, {
-      'Content-Length': tarballSize.toString(),
+    .replyWithFile(200, bigTarballPath, {
+      'Content-Length': (27_156_909).toString(),
     })
 
   process.chdir(tempy.directory())
