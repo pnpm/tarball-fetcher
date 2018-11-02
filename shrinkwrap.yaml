@@ -1,6 +1,5 @@
 dependencies:
   '@pnpm/fetcher-base': 2.0.0
-  '@pnpm/tarball-fetcher': 'link:../__package_previews__/tarball-fetcher/@pnpm/tarball-fetcher'
   '@types/mem': 1.1.2
   '@types/mz': 0.0.32
   '@types/node': 10.12.2
@@ -1958,7 +1957,7 @@ specifiers:
   '@types/retry': ^0.10.2
   '@types/rimraf': ^2.0.2
   '@types/tape': 4.2.32
-  '@types/tempy': ^0.2.0
+  '@types/tempy': 0.2.0
   credentials-by-uri: 1.0.0
   fetch-from-npm-registry: 1.0.0
   fs-write-stream-atomic: 1.0.10
@@ -1966,7 +1965,7 @@ specifiers:
   mem: 4.0.0
   mkdirp-promise: 5.0.1
   mz: 2.7.0
-  nock: ^10.0.1
+  nock: 10.0.1
   package-preview: 1.0.6
   path-temp: 1.0.0
   retry: 0.12.0
@@ -1976,5 +1975,5 @@ specifiers:
   tempy: 0.2.1
   ts-node: 7.0.1
   tslint: 5.11.0
-  typescript: ^3.1.6
+  typescript: 3.1.6
   unpack-stream: 4.0.0
