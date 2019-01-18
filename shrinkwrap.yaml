@@ -27,7 +27,7 @@ devDependencies:
   tape: 4.9.2
   tempy: 0.2.1
   ts-node: 7.0.1
-  tslint: 5.12.0
+  tslint: 5.12.1
   typescript: 3.2.4
 packages:
   /@pnpm/exec/1.1.5:
@@ -1776,7 +1776,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
-  /tslint/5.12.0:
+  /tslint/5.12.1:
     dependencies:
       babel-code-frame: 6.26.0
       builtin-modules: 1.1.1
@@ -1797,7 +1797,7 @@ packages:
     peerDependencies:
       typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev'
     resolution:
-      integrity: sha512-CKEcH1MHUBhoV43SA/Jmy1l24HJJgI0eyLbBNSRyFlsQvb9v6Zdq+Nz2vEOH00nC5SUx4SneJ59PZUS/ARcokQ==
+      integrity: sha512-sfodBHOucFg6egff8d1BvuofoOQ/nOeYNfbp7LDlKBcLNrL3lmS5zoiDGyOMdT7YsEXAwWpTdAHwOGOc8eRZAw==
   /tsutils/2.29.0:
     dependencies:
       tslib: 1.9.3
@@ -1964,6 +1964,6 @@ specifiers:
   tape: 4.9.2
   tempy: 0.2.1
   ts-node: 7.0.1
-  tslint: 5.12.0
+  tslint: 5.12.1
   typescript: 3.2.4
   unpack-stream: 4.0.0
