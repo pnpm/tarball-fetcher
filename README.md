@@ -1,3 +1,5 @@
+> this package was moved to https://github.com/pnpm/pnpm/tree/master/packages/tarball-fetcher
+
 # @pnpm/tarball-fetcher
 
 > Fetcher for packages hosted as tarballs
