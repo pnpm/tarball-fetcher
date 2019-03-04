@@ -24,7 +24,7 @@ devDependencies:
   '@types/tempy': 0.2.0
   nock: 10.0.6
   package-preview: 2.0.0
-  tape: 4.9.2
+  tape: 4.10.1
   tempy: 0.2.1
   ts-node: 8.0.2
   tslint: 5.12.1
@@ -1447,12 +1447,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-3sUr9aq5OfSg2S9pNtPA9hL1FVEAjvfOC4leW0SNf/mpnaakz2a9femSd6LqAww2RaFctwyf1lCqnTHuF1rxDg==
-  /resolve/1.7.1:
-    dependencies:
-      path-parse: 1.0.6
-    dev: true
-    resolution:
-      integrity: sha512-c7rwLofp8g1U+h1KNyHL/jicrKg1Ek4q+Lr33AL65uZTinUZHe30D5HlyN5V9NW0JX1D5dXQ4jqW5l7Sy/kGfw==
   /resumer/0.0.0:
     dependencies:
       through: 2.3.8
@@ -1666,7 +1660,7 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==
-  /tape/4.9.2:
+  /tape/4.10.1:
     dependencies:
       deep-equal: 1.0.1
       defined: 1.0.0
@@ -1677,14 +1671,14 @@ packages:
       inherits: 2.0.3
       minimist: 1.2.0
       object-inspect: 1.6.0
-      resolve: 1.7.1
+      resolve: 1.10.0
       resumer: 0.0.0
       string.prototype.trim: 1.1.2
       through: 2.3.8
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-lPXKRKILZ1kZaUy5ynWKs8ATGSUO7HAFHCFnBam6FaGSqPdOwMWbxXHq4EXFLE8WRTleo/YOMXkaUTRmTB1Fiw==
+      integrity: sha512-G0DywYV1jQeY3axeYnXUOt6ktnxS9OPJh97FGR3nrua8lhWi1zPflLxcAHavZ7Jf3qUfY7cxcVIVFa4mY2IY1w==
   /tar-fs/2.0.0:
     dependencies:
       chownr: 1.1.1
@@ -1950,9 +1944,9 @@ specifiers:
   retry: 0.12.0
   rimraf: 2.6.3
   ssri: 6.0.1
-  tape: 4.9.2
+  tape: 4.10.1
   tempy: 0.2.1
   ts-node: 8.0.2
   tslint: 5.12.1
   typescript: 3.2.4
-  unpack-stream: ^4.0.2
+  unpack-stream: 4.0.2
